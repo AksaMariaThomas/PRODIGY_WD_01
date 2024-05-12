@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #ffd700;
+  }
+  
+  .content {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .slogan {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section1 {
+    background-image: url('Adventure.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section2 {
+    background-image: url('map.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section3 {
+    background-image: url('Adventure-Sports.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section4 {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(104, 234, 191);
+    background-size: cover;
+    background-position: center;
+    transition: filter 0.5s ease;
+  }
+  
+  .section4:hover {
+    filter: blur(0px);
+  }
+  
+  .section4 .content {
+    transition: color 0.5s ease;
+  }
+  
+  .section4:hover .content {
+    color: #fff;
+  }
+  
+  
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
